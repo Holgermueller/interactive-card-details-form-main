@@ -12,18 +12,16 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Interactive card details form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Interactive card details form</title>
   </head>
   <body>
     <main>
@@ -35,6 +33,7 @@
       </div>
 
       <div class="card-back">
+        <img src="images/bg-card-back.png" alt="" />
         <p class="cvc">000</p>
       </div>
 
@@ -72,11 +71,15 @@
 
         <input type="button" value="Confirm" />
       </form>
+
+      <section class="completed-section">
+        <h1>Thank you!</h1>
+
+        <p>We've added your card details</p>
+
+        <button>Continue</button>
+      </section>
     </main>
-
-    <!-- Completed state start -->
-
-    Thank you! We've added your card details Continue
 
     <footer class="attribution">
       Challenge by
